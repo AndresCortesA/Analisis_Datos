@@ -16,7 +16,7 @@ Este repositorio contiene un programa escrito en Python para aprender a usar la 
 
 ## Contenido del Repositorio
 
-- `main.py`: Contiene el código del programa en Python para realizar las operaciones de análisis de datos y visualización.
+- `numPy.py`: Contiene el código del programa en Python para realizar las operaciones de análisis de datos y visualización.
 - `README.md`: Este archivo que proporciona una descripción general del proyecto.
 
 ## Requisitos
