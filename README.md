@@ -25,6 +25,7 @@ El programa requiere tener instalados Python, NumPy y Matplotlib. Si no tienes e
 
 ```bash
 pip install numpy matplotlib
+```
 
 ## Prácticas con Anaconda
 
@@ -35,3 +36,4 @@ Además de las funcionalidades descritas anteriormente, este proyecto también i
 
 ```bash
 conda create -n analisis_datos python pandas matplotlib
+```
