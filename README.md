@@ -25,3 +25,13 @@ El programa requiere tener instalados Python, NumPy y Matplotlib. Si no tienes e
 
 ```bash
 pip install numpy matplotlib
+
+## Prácticas con Anaconda
+
+Además de las funcionalidades descritas anteriormente, este proyecto también incluye prácticas de análisis de datos utilizando la librería Pandas. Para facilitar el uso y la configuración del entorno, se recomienda seguir estos pasos:
+
+1. Descarga e instala [Anaconda](https://www.anaconda.com/products/individual).
+2. Crea un nuevo entorno con Python y las librerías necesarias usando el siguiente comando:
+
+```bash
+conda create -n analisis_datos python pandas matplotlib
