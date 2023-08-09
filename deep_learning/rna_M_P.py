@@ -4,6 +4,8 @@ Neurona de McCulloch-Pitts
 @fecha: 2023-08-9
 
 Practica 1: Redes Neuronales Artificiales - RNA
+
+Descripción:  esta implementación básica de una neurona de McCulloch-Pitts simula una unidad neuronal simple que dispara si la suma de los elementos del vector de entrada supera un umbral predeterminado. Es importante destacar que esta implementación es muy simplificada y no representa el funcionamiento de las redes neuronales modernas, pero es un punto de partida histórico en el desarrollo de conceptos neuronales en la ciencia de las redes neuronales.
 """
 
 # Importar librerias
