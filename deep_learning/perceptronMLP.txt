@@ -1,0 +1,12 @@
+Explicación paso a paso:
+
+    Importamos las bibliotecas necesarias, incluyendo TensorFlow y las funciones y clases que necesitaremos del paquete.
+    Cargamos el conjunto de datos MNIST, que contiene imágenes de dígitos escritos a mano y sus etiquetas correspondientes.
+    Normalizamos los valores de los píxeles dividiéndolos entre 255 para asegurarnos de que estén en el rango [0, 1].
+    Convertimos las etiquetas en codificación one-hot utilizando to_categorical.
+    Creamos un modelo secuencial, que es una pila lineal de capas. El modelo consta de una capa de entrada, dos capas ocultas y una capa de salida. Las capas ocultas utilizan activaciones ReLU para introducir no linealidad.
+    Compilamos el modelo especificando la función de pérdida, el optimizador y las métricas que se utilizarán para evaluar el rendimiento del modelo.
+    Entrenamos el modelo utilizando el conjunto de entrenamiento. Especificamos el número de épocas, el tamaño del lote y el porcentaje de datos que se usarán para la validación.
+    Evaluamos el modelo en el conjunto de prueba y mostramos la precisión alcanzada.
+
+Este ejemplo muestra cómo construir y entrenar un Perceptrón Multicapa utilizando TensorFlow para la clasificación de dígitos MNIST. La red multicapa puede capturar relaciones más complejas en los datos que un Perceptrón simple, lo que resulta en un mejor rendimiento en tareas más desafiantes.

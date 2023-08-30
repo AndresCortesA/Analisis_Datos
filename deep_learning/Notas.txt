@@ -1,0 +1,36 @@
+Una Red Neuronal Artificial (RNA) es un modelo computacional inspirado en el funcionamiento del cerebro humano. Consiste en una red interconectada de unidades llamadas neuronas artificiales o nodos, que trabajan en conjunto para realizar tareas de procesamiento de información, como clasificación, reconocimiento de patrones, regresión, entre otros. Las principales componentes de una RNA son:
+
+    Neuronas Artificiales:
+    Las neuronas artificiales son unidades básicas de procesamiento en una RNA. Cada neurona realiza una operación que incluye una suma ponderada de las entradas, la aplicación de una función de activación y la generación de una salida.
+
+    Capas:
+    Una RNA está organizada en capas. Las capas son conjuntos de neuronas que están dispuestas en un nivel particular en la red. Hay tres tipos principales de capas:
+        Capa de Entrada: Recibe los datos de entrada y transmite la información a las capas ocultas.
+        Capas Ocultas: Capas intermedias entre la capa de entrada y la capa de salida. Realizan el procesamiento y la transformación de los datos.
+        Capa de Salida: Produce la salida final de la red después de que los datos se hayan procesado a través de las capas ocultas.
+
+    Pesos y Conexiones:
+    Las conexiones entre las neuronas se representan mediante pesos. Cada conexión entre dos neuronas tiene un peso asociado que indica la importancia o la contribución de la entrada de una neurona a la otra.
+
+    Funciones de Activación:
+    Las funciones de activación se aplican a la suma ponderada de las entradas en una neurona para determinar su salida. Estas funciones introducen no linealidades en la red, lo que permite a las RNA modelar relaciones y patrones complejos en los datos. Algunas funciones de activación comunes son la función sigmoide, la función ReLU y la función tangente hiperbólica.
+
+    Función de Costo (Pérdida):
+    La función de costo (también llamada función de pérdida) mide la discrepancia entre las salidas de la RNA y las salidas esperadas (etiquetas) durante el proceso de entrenamiento. El objetivo del entrenamiento es minimizar esta función para ajustar los pesos de la red y mejorar su rendimiento.
+
+    Algoritmo de Optimización:
+    Los algoritmos de optimización se utilizan durante el entrenamiento para ajustar los pesos y los sesgos de las neuronas con el fin de minimizar la función de costo. Ejemplos de algoritmos de optimización incluyen el Descenso de Gradiente y sus variantes.
+
+    Bias (Sesgo):
+    Cada neurona también tiene un término de sesgo que se suma a la suma ponderada de las entradas antes de aplicar la función de activación. El sesgo permite que la red aprenda desplazamientos y patrones más complejos en los datos.
+
+    Arquitectura:
+    La arquitectura de una RNA se refiere a cómo están dispuestas las capas y las conexiones entre ellas. Las arquitecturas pueden variar ampliamente según el problema, como redes neuronales feedforward, redes recurrentes, redes convolucionales, etc.
+
+    Función de Propagación hacia Adelante:
+    La propagación hacia adelante es el proceso mediante el cual los datos de entrada se pasan a través de la red desde la capa de entrada hasta la capa de salida. Cada neurona realiza sus cálculos y pasa su salida a las neuronas de la siguiente capa.
+
+    Función de Retropropagación:
+    La retropropagación es el proceso mediante el cual se calculan los gradientes de la función de costo con respecto a los pesos y sesgos de la red. Estos gradientes se utilizan en los algoritmos de optimización para ajustar los parámetros de la red durante el entrenamiento.
+
+Estos son los componentes clave de una Red Neuronal Artificial. La combinación y configuración de estos componentes varían según la arquitectura y el problema específico que se esté abordando.
